@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "GhostClean",
     "description": "Stores URLs and deletes history only for those URLs and their endpoints.",
-    "version": "1.0",
+    "version": "1.0.1",
     "permissions": [
       "history",
       "storage"

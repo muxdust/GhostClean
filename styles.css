@@ -3,8 +3,8 @@ body {
   width: 320px;
   margin: 0;
   padding: 15px;
-  background-color: #212529;
-  color: #f5f5f5;
+  background-color: #09090b;
+  color: #e4e4e7;
 }
 
 .container {
@@ -21,10 +21,10 @@ h2 {
 input {
   padding: 8px;
   border-radius: 4px;
-  border: 1px solid #444;
-  background-color: #343a40;
+  border: 1px solid #282828;
+  background-color: #27272a;
   outline: none;
-  color: #f5f5f5;
+  color: #e4e4e7;
   margin-bottom: 10px;
   font-size: 14px;
 }
@@ -52,8 +52,8 @@ button:hover {
 }
 
 #urlList li {
-  background: #343a40;
-  border: 1px solid #444;
+  background: #27272a;
+  border: 1px solid #282828;
   margin-top: 5px;
   padding: 8px;
   border-radius: 4px;
@@ -63,29 +63,29 @@ button:hover {
   align-items: center;
 }
 
-#urlList li button {
-  background-color: #f54900;
+/* #urlList li button {
+  background-color: #0097A7;
   padding: 4px 8px;
   font-size: 12px;
   border-radius: 3px;
-  color: white;
+  color: #e4e4e7;
   transition: background-color 0.3s ease;
   margin-top: auto;
   margin-bottom: auto;
 }
 
 #urlList li button:hover {
-  background-color: #ca3500;
-}
+  background-color: #00838F;
+} */
 
 .clean-button {
-  background-color: #f54900;
-  color: white;
+  background-color: #0097A7;
+  color: #e4e4e7;
   transition: background-color 0.3s ease;
 }
 
 .clean-button:hover {
-  background-color: #ca3500;
+  background-color: #00838F;
 }
 
 .header {

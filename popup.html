@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Remove URL History</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="icon/logo.png" alt="" />
+        <h2>Remove URL History</h2>
+      </div>
+      <input type="text" id="urlInput" placeholder="https://example.com" />
+      <button id="addUrl" style="display: flex; align-items: center; justify-content: center;">
+        Add URL
+        <img
+          src="icon/add.png"
+          alt=""
+          style="
+            height: 16px;
+            width: 16px;
+            margin-left: 5px;
+            margin-top: auto;
+            margin-bottom: auto;
+          "
+        />
+      </button>
+      <ul id="urlList"></ul>
+      <button id="cleanNow" class="clean-button" style="display: flex; align-items: center; justify-content: center;">
+        Clean Now
+        <img
+          src="icon/delete.png"
+          alt=""
+          style="
+            height: 16px;
+            width: 16px;
+            margin-left: 5px;
+            margin-top: auto;
+            margin-bottom: auto;
+          "
+        />
+      </button>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
